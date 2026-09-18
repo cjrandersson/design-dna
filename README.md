@@ -1,4 +1,4 @@
-## Overview ##
+## Our design manifesto ##
 
 # design-dna
 
