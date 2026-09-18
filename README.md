@@ -103,10 +103,17 @@ docs/
   02-how-to-brief-ai.md
   03-reference-analysis.md
   04-agent-rules.md
+  05-design-resources.md
 
 templates/
   design-brief.md
 ```
+
+## Curated resources
+
+`docs/05-design-resources.md` is the shared source library for visual inspiration, design systems, component references, typography, creative coding, motion, packaging and implementation tools.
+
+It prioritizes sources that AI agents can inspect and reason about, and records how each type of source should be used without allowing references or component libraries to overwrite the project's own visual language.
 
 ## How we use this
 
@@ -118,7 +125,8 @@ When starting or changing a project, the workflow is:
 4. Define what the design must never drift into.
 5. Translate those observations into project-specific rules.
 6. Give the relevant Design DNA context to the AI agent before implementation.
-7. Update this repository when we discover a better way to describe the vision.
+7. Use the curated resource library to find stronger references, implementation patterns and tools when needed.
+8. Update this repository when we discover a better way to describe the vision.
 
 This is intentionally a living document.
 
